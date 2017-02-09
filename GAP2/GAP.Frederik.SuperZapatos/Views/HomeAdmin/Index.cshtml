@@ -1,0 +1,28 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="jumbotron">
+    <h1>Super Zapatos Admin</h1>
+    <p class="lead">Admin Section.</p>
+    <p>@*<a href="@Url.Action("Admin")" class="btn btn-primary btn-lg">Go to admin section</a>*@</p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Manage stores</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere laoreet ante sit amet.
+        </p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Store")">Start</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Manage articles</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere laoreet ante sit amet.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "Article")">Start</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Admin Section</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam posuere laoreet ante sit amet.</p>
+        <p><a class="btn btn-default" href="@Url.Action("Index", "HomeAdmin")">Start</a></p>
+    </div>
+</div>

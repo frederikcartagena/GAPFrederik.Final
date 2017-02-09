@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAP.Frederik.SuperZapatos", "GAP.Frederik.SuperZapatos\GAP.Frederik.SuperZapatos.csproj", "{624ECC1D-1DA0-4B47-A922-BEA9EDC8F500}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAP.Frederik.SuperZapatos.Model", "GAP.Frederik.SuperZapatos.Model\GAP.Frederik.SuperZapatos.Model.csproj", "{883E9AFD-B882-418E-9EDE-8ADF1E163A7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAP.Frederik.SuperZapatos.DataAccess", "GAP.Frederik.SuperZapatos.DataAccess\GAP.Frederik.SuperZapatos.DataAccess.csproj", "{66CEA69A-06E6-4870-B2B3-179906D3FEB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAP.Frederik.SuperZapatos.WebAPI", "GAP.Frederik.SuperZapatos.WebAPI\GAP.Frederik.SuperZapatos.WebAPI.csproj", "{0590FE52-4EF2-4B32-B9B2-26D6CA6D80FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAP.Frederik.SuperZapatos.BLL", "GAP.Frederik.SuperZapatos.BLL\GAP.Frederik.SuperZapatos.BLL.csproj", "{93BBC6DF-EB98-46B5-A3AB-7BE30F19E86F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GAP.Frederik.SuperZapatos.Common", "GAP.Frederik.SuperZapatos.Common\GAP.Frederik.SuperZapatos.Common.csproj", "{FF1EEB8D-EB8C-4D5A-8983-601789F81DD7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{624ECC1D-1DA0-4B47-A922-BEA9EDC8F500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{624ECC1D-1DA0-4B47-A922-BEA9EDC8F500}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{624ECC1D-1DA0-4B47-A922-BEA9EDC8F500}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{624ECC1D-1DA0-4B47-A922-BEA9EDC8F500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883E9AFD-B882-418E-9EDE-8ADF1E163A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883E9AFD-B882-418E-9EDE-8ADF1E163A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883E9AFD-B882-418E-9EDE-8ADF1E163A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883E9AFD-B882-418E-9EDE-8ADF1E163A7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66CEA69A-06E6-4870-B2B3-179906D3FEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66CEA69A-06E6-4870-B2B3-179906D3FEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66CEA69A-06E6-4870-B2B3-179906D3FEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66CEA69A-06E6-4870-B2B3-179906D3FEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0590FE52-4EF2-4B32-B9B2-26D6CA6D80FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0590FE52-4EF2-4B32-B9B2-26D6CA6D80FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0590FE52-4EF2-4B32-B9B2-26D6CA6D80FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0590FE52-4EF2-4B32-B9B2-26D6CA6D80FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93BBC6DF-EB98-46B5-A3AB-7BE30F19E86F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93BBC6DF-EB98-46B5-A3AB-7BE30F19E86F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93BBC6DF-EB98-46B5-A3AB-7BE30F19E86F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93BBC6DF-EB98-46B5-A3AB-7BE30F19E86F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF1EEB8D-EB8C-4D5A-8983-601789F81DD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF1EEB8D-EB8C-4D5A-8983-601789F81DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF1EEB8D-EB8C-4D5A-8983-601789F81DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF1EEB8D-EB8C-4D5A-8983-601789F81DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

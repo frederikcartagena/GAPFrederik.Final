@@ -1,0 +1,65 @@
+﻿@using GAP.Frederik.SuperZapatos.Model
+@model Article
+
+@{
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Article</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        
+
+        <dd>
+            @Html.DisplayFor(model => model.Store.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.price)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.price)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.total_in_shelf)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.total_in_shelf)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.total_in_vault)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.total_in_vault)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
